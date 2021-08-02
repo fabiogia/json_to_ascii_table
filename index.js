@@ -57,7 +57,7 @@ function AsciiBox(props) {
   }
 
   const getFields = (obj) => {
-    if (!obj || !Array.isArray(query)) return [];
+    if (!obj || !Array.isArray(obj)) return [];
     return getKeys(obj[0]);
   }
   
